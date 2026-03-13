@@ -68,7 +68,7 @@ with HandLandmarker.create_from_options(options) as landmarker:
                     thumb_x = hand_landmarks[4].x * width
 
                     if hand_landmarks[8].x * width < thumb_x and strokes:
-                        print(thumb_x)
+                        #print(thumb_x)
                         strokes=[]
 
                     # new strokes
